@@ -200,7 +200,7 @@ class GraphicDisplay(tk.Tk):
                 self.text_value(i, j, round(values[i][j], 2))
 
     def render(self):
-        time.sleep(0.1)
+        time.sleep(0.03)
         self.canvas.tag_raise(self.rectangle)
         self.update()
 
